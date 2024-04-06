@@ -1,0 +1,21 @@
+{
+    "name": "源码破解器",
+    "version": "2.3.0",
+    "manifest_version": 3,
+    "description": "学而思编程社区的作品源码地址破解",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "downloads"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "源码破解器",
+        "default_width": 400,
+        "default_height": 1000
+    },
+    "background":{
+        "service_worker":"background.js"
+    }
+   
+}
